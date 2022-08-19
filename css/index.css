@@ -1,68 +1,90 @@
-
-/* #DDB6F5 */
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: Roboto, sans-serif;
-}
-.main-div::before{
-    z-index: 1;
-    background-image: linear-gradient(to right bottom,#ddb6f5f9 , #DDB6F5 );
-    clip-path: polygon(14% 0, 100% 0%, 100% 75%, 44% 74%);
-}
-.nav{
-    padding: 4rem;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+  }
+  
+  nav {
     display: flex;
     justify-content: space-between;
-}
-.nav-items{
+    align-items: center;
+   padding-top: 1.5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+  }
+  
+  .nav-items {
     display: flex;
-}
-.nav-item{
-    /* margin-left: 4rem; */
-    margin-right: 4rem;
+    gap: 3rem;
     font-size: 1.2rem;
-}
-.signin-btn{
-
-    background-image: linear-gradient( to right, #965CF2, #FF8ADC );
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;    
+    color: #3e4794;
+  }
+  
+  button {
+    background: linear-gradient(to right, #9960f2, #ff8adc);
+    padding: 0.5rem 1rem;
     border: none;
-}
-.intro-section{
+    color: #fff;
+    border-radius: 10rem;
+  }
+  .signin-btn:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom, #9960f2, #ff8adc);
+  }
+  
+  .intro-section {
     display: flex;
-}
-.web{
-    font-size: 4.5rem;
-    color: #3E4794;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-.heading-2{
-    font-size: 1.2rem;
-    color: #81849F;
-    margin-bottom: 4rem;
-    font-weight: 300;
-}
-.learn-more-btn{
-    background-image: linear-gradient( to right, #965CF2, #FF8ADC );
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border: none;
-}
-.left-section{
-    padding: 4rem;
-}
-.imgs-div{
-    display: flex;
-}
+  }
+  
+  .left-section {
+    margin: 6rem 9rem;
+  }
+  
+  .left-section h1 {
+    font-size: 6rem;
+    color: #3e4794;
+    margin-bottom: 2rem;
+  }
+  .left-section h4 {
+    font-weight: 400;
+    color: #484848;
+    margin-bottom: 3rem;
+    width: 400px;
+    line-height: 1.6;
+  }
+  .learn-more-btn {
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+  }
+  
+  .imgs-div {
+    position: relative;
+  }
+  .learn-more-btn{
+    cursor: pointer;
+  }
+  .learn-more-btn:hover{
+    background: linear-gradient(to bottom, #9960f2, #ff8adc);
+  }
+  .intro-img {
+    height: 81vh;
+  }
+  .vector-dot {
+    position: absolute;
+    bottom: 14rem;
+    left: 4rem;
+  }
+  .vector-img {
+    position: absolute;
+    bottom: 8.5rem;
+    left: 0.5rem;
+  }
+  
+ 
